@@ -4,7 +4,7 @@
 $ git clone https://github.com/mtsmfm/steep-with-present
 $ cd steep-with-present
 $ bundle install
-$ bundle exec rbs install
+$ bundle exec rbs collection install
 $ bundle exec steep check
 # Type checking files:
 
