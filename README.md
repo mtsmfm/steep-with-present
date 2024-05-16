@@ -4,10 +4,11 @@
 $ git clone https://github.com/mtsmfm/steep-with-present
 $ cd steep-with-present
 $ bundle install
+$ bundle exec rbs install
 $ bundle exec steep check
 # Type checking files:
 
-................................................................................F...
+..................................................................................................................................................F.
 
 lib/foo.rb:9:10: [error] Type `(::String | nil)` does not have method `*`
 │ Diagnostic ID: Ruby::NoMethod
