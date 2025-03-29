@@ -1,5 +1,7 @@
 # Steep with present? demo
 
+# This issue is fixed!
+
 ```
 $ git clone https://github.com/mtsmfm/steep-with-present
 $ cd steep-with-present
