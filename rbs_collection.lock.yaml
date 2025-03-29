@@ -6,23 +6,35 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: de369d24525f63ebc1177b85ebc4c45a3806d0ac
+    revision: 4ad2282c01727275be904330c033ea056974522f
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: base64
+  version: '0.1'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 4ad2282c01727275be904330c033ea056974522f
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: benchmark
   version: '0'
   source:
     type: stdlib
 - name: bigdecimal
-  version: '0'
+  version: '3.1'
   source:
-    type: stdlib
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 4ad2282c01727275be904330c033ea056974522f
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: concurrent-ruby
   version: '1.1'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: de369d24525f63ebc1177b85ebc4c45a3806d0ac
+    revision: 4ad2282c01727275be904330c033ea056974522f
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: connection_pool
@@ -30,10 +42,14 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: de369d24525f63ebc1177b85ebc4c45a3806d0ac
+    revision: 4ad2282c01727275be904330c033ea056974522f
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: date
+  version: '0'
+  source:
+    type: stdlib
+- name: digest
   version: '0'
   source:
     type: stdlib
@@ -46,7 +62,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: de369d24525f63ebc1177b85ebc4c45a3806d0ac
+    revision: 4ad2282c01727275be904330c033ea056974522f
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: logger
@@ -54,14 +70,22 @@ gems:
   source:
     type: stdlib
 - name: minitest
-  version: '0'
+  version: '5.25'
   source:
-    type: stdlib
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 4ad2282c01727275be904330c033ea056974522f
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: monitor
   version: '0'
   source:
     type: stdlib
 - name: mutex_m
+  version: 0.3.0
+  source:
+    type: rubygems
+- name: openssl
   version: '0'
   source:
     type: stdlib
@@ -73,11 +97,27 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: socket
+  version: '0'
+  source:
+    type: stdlib
 - name: time
   version: '0'
   source:
     type: stdlib
 - name: timeout
+  version: '0'
+  source:
+    type: stdlib
+- name: tzinfo
+  version: '2.0'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: 4ad2282c01727275be904330c033ea056974522f
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: uri
   version: '0'
   source:
     type: stdlib
